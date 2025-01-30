@@ -1,6 +1,6 @@
 # Phoenix : IMF Gadget API Development 
 
-A RESTful API for managing secret gadgets and admin authentication.
+A RESTful API for managing secret gadgets and user authentication.
 ______________________________________________________________________________________________________________________________
 
 
@@ -141,10 +141,4 @@ Common HTTP status codes:
 Required environment variables:
 - `NEON_DATABASE_URL`: PostgreSQL database connection URL
 - `JWT_SECRET`: Secret key for JWT token generation
-- `JWT_EXPIRATION`: JWT token expiration time
-- `NODE_ENV`: Application environment (development/production)
 
-
-### Future Improvements
-1. Implement rate limiting using Redis or similar caching system
-2. Add pagination for gadget listing endpoint
